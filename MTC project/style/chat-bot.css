@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+header .right-section{
+    display: flex;
+    margin-left: 200px;
+}
+
+header .right-section img{
+    width: 100px;
+    height: 50px;
+}
+
+header .right-section p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-left: 30px;
+    color: #6B7280;
+}
+
+header .right-section p a:hover{
+    color: #333;
+    cursor: pointer;
+}
+header .left-section{
+    margin-right: 150px;
+    margin-top: 5px;
+}
+header .left-section button{
+    background-color: #fff;
+    border: 1px solid #DEE2E6;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #6B7290;
+}
+
+header .left-section button span img{
+    width: 13px;
+    height: 10px;
+}
+header .left-section button:hover{
+    color: #afb2b9;
+}
+
+header .right-section p a{
+    color: #6B7280;
+    text-decoration: none;
+}
+
+header .profile-div{
+    background-color: #fff;
+    position: absolute;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    width: 200px;
+    margin-top: 10px;
+    right: 150px;
+    height: 55px;
+    border-radius: 4px;
+    display: none;
+}
+
+header .profile-div a{
+    color: #D5D7DB;
+    text-decoration: none;
+    margin-top: 30px;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+
+section{
+    background-color: #212121;
+    height: 658px;
+    margin-top: 10px;
+}
+.head-chat{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.head-chat .left-sec{
+    margin-left: 20px;   
+}
+.head-chat .right-sec{
+    margin-right: 20px;
+}
+.head-chat .right-sec button{
+    padding: 6px;
+    border-radius: 16px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    height: 30px;
+    cursor: pointer;
+}
+.head-chat .right-sec .sign-in{
+    width: 100px;
+
+}
+.head-chat img{
+    width: 200px;
+    height: 100px;
+    margin-top: 50px;
+}
+.chat-inp{
+    text-align: center;
+    margin-top: 400px;
+} 
+.chat-inp input{
+    width: 700px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.chat-inp button{
+    height: 28px;
+    width: 70px;
+    position: absolute;
+    right: 430px;
+    top: 663px;
+    border-radius: 8px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.bot-version{
+    margin-top: 20px;
+    color: #fff;
+    margin-left: 10px;
+}

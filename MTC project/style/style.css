@@ -1,0 +1,597 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #0067F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.white-color{
+    color: #fff;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+header .left-head img{
+    width: 150px;
+    left: 210px;
+    top: -20px;
+    position: absolute;
+    margin-top: 35px;
+}
+
+header ul{
+    display: flex;
+    margin-left: 130px;
+    margin-top: 37px;
+}
+header ul li{
+    list-style: none;
+    padding-left: 25px;
+    font-size: 20px;
+    color: #BED8FC;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+header ul li a{
+    color: #BED8FC;
+    text-decoration: none;
+    transition: 0.5s ease-in;
+}
+
+header ul li a:hover{
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+header .btn-head{
+    margin-right: 100px;
+}
+header button{
+    padding: 13px;
+    background-color: white;
+    border-radius: 4px;
+    color: blue;
+    border: none;
+    margin-top: 28px;
+    border: blue solid 1px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #0067f4;
+    transition: 0.4s ease;
+    font-size: 15px;
+    font-weight: 560;
+
+}
+header button:hover{
+    background-color: #0067F4;
+    color: #fff;
+    font-weight: 560;
+    font-size: 15px;
+    border: #fff solid 1px;
+    transition: 0.5s ease;
+}
+.section-1{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+}
+.section-1 .slider-content{
+    display: flex;
+}
+.section-1 .left-sec1 {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.section-1 .left-sec1 h1{
+    color: white;
+    font-size: 70px;
+}
+
+.section-1 .left-sec1 p{
+    color: #fff;
+    margin-top: 20px;
+}
+.section-1 .left-sec1 button{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.section-1 .left-sec1 .register{
+    width: 120px;
+    height: 45px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    color: #0067F4;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.section-1 .left-sec1 .login{
+    width: 100px;
+    height: 45px;
+    background-color: #0067F4;
+    border: #fff solid 2px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.5s ease;
+}
+
+.section-1 .left-sec1 .login:hover{
+    background-color: #fff;
+    color: #0067F4;
+    transition: 0.5s ease;
+}
+
+.section-1 .left-sec1 .register:hover{
+    transition: 0.5s ease;
+    background-color: #0067F4;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 700;
+}
+.section-1 .right-sec2 img{
+    width: 600px;
+    height: 600px;
+}
+.section-2{
+    background-color: #F4F6F7;
+}
+
+.section-2 .head-sec-2{
+    padding-top: 100px;
+}
+.section-2 .head-sec-2 h1{
+    margin-left:610px;
+    font-size: 50px;
+}
+.section-2 .head-sec-2 h3{
+    margin-left: 590px;
+    color: #6C6C6C;
+    margin-top: 30px;
+}
+.section-2 .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.section-2 .card{
+    background-color: #fff;
+    width: 18.8em;
+    height: 200px;
+    padding: 25px;
+    margin: 15px;
+    margin-top: 30px;
+}
+.section-2 .card .top-card{
+    display: flex;
+}
+.section-2 .card .top-card .img-svg{
+    position: relative;
+    margin-left: 20px;
+}
+.section-2 .card .top-card i{
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 10px;
+    font-size: 80px;
+}
+.section-2 .card .top-card h1{
+    margin-top: 10px;
+    font-size: 35px;
+}
+.section-2 .card .top-card h1:hover{
+    color: blue;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.section-2 .card .bottom-card{
+    margin-top: 20px;
+}
+
+.section-3{
+    background-color: #fff;
+}
+.section-3 .head-sec-3{
+    padding-top: 100px;
+}
+.section-3 .head-sec-3 h1{
+    margin-left: 610px;
+    font-size: 50px;
+}
+.section-3 .head-sec-3 h3{
+    margin-left: 560px;
+    color: #6C6C6C;
+    margin-top: 30px;
+}
+.section-3 .display-pricing{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.section-3 .display-pricing .background-pricing-1{
+ background: linear-gradient(#2bdbdc 0%, #0067f4 100%);
+ margin-right: 30px;
+ width: 350px;
+ border-radius: 9px;
+ height: 530px;
+}
+.section-3 .display-pricing .background-pricing-1 .motorcycle-pricing{
+    text-align: center;
+}
+.section-3 .display-pricing .background-pricing-1 .motorcycle-pricing img{
+    width: 195px;
+    margin-top: 20px;
+}
+.section-3 .display-pricing .background-pricing-2{
+    background: linear-gradient(#2bdbdc 0%, #0067f4 100%);
+    width: 350px;
+    height: 530px;
+    border-radius: 9px;
+}
+.section-3 .display-pricing .background-pricing-2 .motorcycle-pricing{
+    text-align: center;
+}
+.section-3 .display-pricing .background-pricing-2 .motorcycle-pricing img{
+    width: 195px;
+    margin-top: 20px;
+}
+
+.section-3 .display-pricing .background-pricing-1 .pricing-data{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+.section-3 .display-pricing .background-pricing-1 .pricing-data h5{
+    font-size: 20px;
+}
+.section-3 .display-pricing .background-pricing-1 .pricing-data p{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.section-3 .display-pricing .background-pricing-1 .pricing-data p span{
+    font-size: 45px;
+}
+.section-3 .display-pricing .background-pricing-1 .properties-pricing{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+.section-3 .display-pricing .background-pricing-1 .properties-pricing .paragraph-pricing{
+    margin-top: 15px;
+}
+
+.section-3 .display-pricing .background-pricing-1 .button-pricing{
+    margin-top: 50px;
+    text-align: center;
+}
+.section-3 .display-pricing .background-pricing-1 .button-pricing .main-btn-pricing{
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: #fff;
+    color: blue;
+}
+.section-3 .display-pricing .background-pricing-2 .pricing-data{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+.section-3 .display-pricing .background-pricing-2 .pricing-data h5{
+    font-size: 20px;
+}
+.section-3 .display-pricing .background-pricing-2 .pricing-data p{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.section-3 .display-pricing .background-pricing-2 .pricing-data p span{
+    font-size: 45px;
+}
+.section-3 .display-pricing .background-pricing-2 .properties-pricing{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+.section-3 .display-pricing .background-pricing-2 .properties-pricing .paragraph-pricing{
+    margin-top: 15px;
+}
+.section-3 .display-pricing .background-pricing-2 .button-pricing{
+    margin-top: 50px;
+    text-align: center;
+}
+.section-3 .display-pricing .background-pricing-2 .button-pricing .main-btn-pricing{
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: #fff;
+    color: blue;
+}
+.section-3 .display-pricing .background-pricing-2 .button-pricing .main-btn-pricing:hover{
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+    box-shadow: 1px 1px 1px 1px;
+}
+.section-3 .display-pricing .background-pricing-1 .button-pricing .main-btn-pricing:hover{
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.section-4{ 
+    background-color: #fff;
+}
+.section-4 .container .about{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+.section-4 .right-sec-about .about-img img{
+    width: 550px;
+    height: 550px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.section-4 .about .left-sec-about{
+    margin-top: 120px;
+    margin-right: 100px;
+}
+.section-4 .about .left-sec-about .about-content .about-title h5{
+    color: blue;
+} 
+.section-4 .about .left-sec-about .about-content .about-title h3{
+    font-size: 30px;
+}
+.section-4 .about .left-sec-about .about-content .about-paragraph .paragraph .card-about .card-head label input span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #333;
+}
+
+.section-5{
+    background-color: #F4F6F7;
+    height: 850px;
+}
+
+.section-5 .contact-head h1{
+    font-size: 50px;
+}
+.section-5 .contact-head p{
+    color:#6C6C6C ;
+    margin-top: 20px;
+}
+
+.section-5 .contact-head{
+    padding-top: 40px;
+    text-align: center;
+}
+.section-5 .mid-contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-right: 90px;
+    text-align: center;
+}
+
+.section-5 .mid-contact i{
+    background-color: red;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    color: #fff;
+    align-content: center;
+    margin-right: 10px;
+}
+
+.section-5 .contact-foot h4{
+    margin-top: 150px;
+    text-align: center;
+    margin-right: 700px;
+    font-size: 30px;
+}
+.section-5 .contact-foot h4 span{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.section-5 .contact-foot form .email-name{
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.section-5 .contact-foot form .name-input .name-input-icon input{
+    width: 500px;
+    height: 30px;
+    
+}
+.section-5 .contact-foot form .name-input .name-input-icon .input-name{
+    position: relative;
+    margin-top: 5px;
+}
+
+.section-5 .contact-foot form .name-input .name-input-icon .name-icon{
+    position: absolute;
+    right: 750px;
+    top: 3700px;
+    color: #757575;
+}
+
+.section-5 .contact-foot .contact-input .name-input .email-input-icon .email-input .name-input-icon{
+    margin-left: 30px;
+}
+
+.section-5 .contact-foot .contact-input .name-input .email-input-icon .email-input label{
+    margin-left: 30px;
+    color: #757575;
+}
+.section-5 .contact-foot .contact-input .name-input label{
+    color: #757575;
+    font-size: 12px;
+}
+.section-5 .contact-foot .contact-input .name-input .email-input-icon .email-input .name-input-icon .input-name{
+    position: relative;
+}
+.section-5 .contact-foot .contact-input .name-input .email-input-icon .email-input .name-input-icon .email-icon{
+    position: absolute;
+    top: 3700px;
+    right: 216px;
+    color: #757575;
+}
+
+.section-5 .contact-foot .contact-input .name-input .email-input-icon .email-input .name-input-icon .input-email{
+    margin-top: 5px;
+}
+
+.section-5 .contact-foot .contact-input .message-input{
+    margin-left: 275px;
+    margin-top: 30px;
+}
+
+.section-5 .contact-foot .contact-input .message-input .message-input-icon input{
+  width: 1036px;
+  height: 100px;
+  position: relative;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: #A4A4A4 solid 2px;
+}
+.section-5 .contact-foot .contact-input .message-input .message-input-icon input::placeholder{
+    padding-left: 10px;
+    position: absolute;
+    top: 10px;
+    font-size: 17px;
+}
+.section-5 .contact-foot .contact-input .message-input label{
+    color: #757575;
+    font-size: 12px;
+}
+
+.section-5 .contact-foot .contact-input .message-input .message-input-icon i{
+    position: absolute;
+    top: 3790px;
+    right: 214px;
+    font-size: 19px;
+    color: #757575;
+}
+
+.section-5 .contact-foot .contact-input .name-input .email-input-icon .email-input .name-input-icon input::placeholder{
+    font-size: 17px;
+}
+
+
+.section-5 .contact-foot .contact-input .email-name .name-input .name-input-icon input::placeholder{
+    font-size: 17px;
+}
+
+
+.section-5 .contact-foot .contact-input .name-input .email-input-icon .email-input .name-input-icon input{
+    height: 35px;
+}
+.section-5 .contact-foot .contact-input .email-name .name-input .name-input-icon input{
+    height: 35px;
+    border-radius: 4px;
+    border: #A4A4A4 solid 2px;
+}
+
+
+.section-5 .contact-foot .contact-input .message-input .button-contact{
+    margin-top: 30px;
+}
+
+.section-5 .contact-foot .contact-input .message-input .button-contact button{
+    width: 175px;
+    height: 45px;
+    border-radius: 4px;
+    border: none;
+    background-color: #0067F4;
+    color: #fff;
+    font-weight: 560;
+    font-size: 15px;
+    border: blue solid 1px;
+    transition: 0.5s ease-in-out;
+}
+
+.section-5 .contact-foot .contact-input .message-input .message-input-icon input{
+padding-left: 5px;
+}
+.section-5 .contact-foot .contact-input .message-input .button-contact button:hover{
+    border: blue solid 1px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #0067f4;
+    transition: 0.4s ease-in-out;
+}
+
+.section-6{
+    background-color: #121212;
+    color: #fff;
+    height: 350px;
+}
+.section-6 .footer .footer-content{
+    text-align: center;
+}
+.section-6 .footer .footer-content .footer-social ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+.section-6 .footer .footer-content .footer-social ul li{
+    list-style: none;
+}
+
+
+.section-6 .footer .footer-content .footer-social ul li a i{
+    color: #fff;
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+.section-6 .footer .footer-content .footer-support{
+    margin-top: 30px;
+}
+
+
+.section-6 .footer .footer-content .footer-support p{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+
+.section-6 .footer .footer-content .copyright{
+    margin-top: 30px;
+}
+
+.section-6 .footer .footer-content .copyright p a{
+    text-decoration: none;
+    color: #0067f4;
+}
+
+
+
+.slider-content{
+    position: relative;
+    width: 100%;
+}
+.slides img{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    display: block;
+    right: 50px;
+}

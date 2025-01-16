@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+header .right-section{
+    display: flex;
+    margin-left: 200px;
+}
+
+header .right-section img{
+    width: 100px;
+    height: 50px;
+}
+
+header .right-section p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-left: 30px;
+    color: #6B7280;
+}
+
+header .right-section p a:hover{
+    color: #333;
+    cursor: pointer;
+}
+header .right-section p a{
+    text-decoration: none;
+    color: #6B7280;
+}
+header .left-section{
+    margin-right: 150px;
+    margin-top: 5px;
+}
+header .left-section button{
+    background-color: #fff;
+    border: 1px solid #DEE2E6;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #6B7290;
+}
+
+header .left-section button span img{
+    width: 13px;
+    height: 10px;
+}
+header .left-section button:hover{
+    color: #afb2b9;
+}
+
+header .right-section h3 a{
+    color: #6B7280;
+    text-decoration: none;
+}
+
+
+.sec-2{
+    background-color: #111827;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.sec-2 .sec-2-p{
+    background-color: #fff;
+    width: 1200px;
+    height: 600px;
+    border-radius: 8px;
+}
+
+.sec-2 .sec-2-p .data-type-p{
+    text-align: center;
+   padding-top: 20px;
+   color: #B9BABC;
+   font-size: 12px;
+}
+
+.sec-2 .sec-2-p .button-type{
+    display: flex;
+    justify-content: center;
+}
+
+.sec-2 .sec-2-p .button-type button{
+    color: #0DCAF2;
+    border: 1px solid #0DCAF2;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+    
+}
+
+.sec-2 .sec-2-p .button-type button:hover{
+    transition: 0.3s ease;
+    color: #000;
+    cursor: pointer;
+    background-color: #0DCAF2;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+form .input-center label{
+    font-size: 14px;
+}
+form .input-center p{
+    font-size: 11px;
+    color: #CBCCCD;
+}
+
+form .input-center input{
+    width: 400px;
+    background-color: #000;
+    border: none;
+}
+
+form .input-center .input-text{
+    height: 35px;
+    border-radius: 4px;
+    color: #fff;
+    padding-left: 4px;
+    margin-top: 10px;
+}
+form .input-center .input-file-div{
+    margin-top: 20px;
+}
+
+form .input-center .input-file-div input{
+    border-radius: 4px;
+    width: 403px;
+}
+
+form .input-center .qr-code-message{
+    margin-top: 20px;
+}
+form .input-center .qr-code-message textarea{
+    height: 100px;
+    width: 390px;
+    background-color: #000;
+    padding-top: 10px;
+    border-radius: 4px;
+    color: #fff;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+form .input-center .btn-generate{
+    margin-top: 30px;
+}
+form .input-center .btn-generate button{
+    width: 80px;
+    height: 33px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background-color: #6C757D;
+    transition: 0.7s ease;
+}
+
+form .input-center .btn-generate button:hover{
+    cursor: pointer;
+    background-color: #5c656c;
+    transition: 0.7s ease;
+}
+
+
+
+

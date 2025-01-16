@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/qr-code-customize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="right-section">
+            <img src="images/logo.png" alt="">
+            <p><a href="QR-Details.html">Dashboard</a></p>
+            <p><a href="statistics.html">Statistics</a></p>
+            <p><a href="chat-bot.html">Chatbot</a></p>
+        </div>
+        <div class="left-section">
+            <button>Khaled Sourani <span><img src="images/down-arrow.png" alt=""></span></button>
+        </div>
+    </header> 
+    <hr style="margin-top: 10px;">
+    <section class="sec-2">
+        <div class="white-back">
+            <div class="absolute-back">
+                <div class="sec-2-p">
+                        <p class="data-type-p">Choose your data type</p>
+                        <div class="button-type">
+                            <button id="link">Link</button>
+                            <button id="text">Text</button>
+                            <button id="pdf">PDF File</button>
+                            <button id="image">Image</button>
+                        </div>
+                        <form action="">
+                        <div class="input-center">
+                            <div class="qr-code-title">
+                                <label for="">QR Code title</label>
+                                <p>Put your qr code title</p>
+                                <input type="text" class="input-text" id="qr-title">
+                            </div>
+                            <div class="input-file-div">
+                                <label for="">logo
+                                </label>
+                                <p>Optional put the logo and press  generate to make it appear</p>
+                                <input type="file" class="input-file" placeholder="No File Choosen">
+                            </div>
+                            <div class="qr-code-message">
+                                <label for="">QR code data</label>
+                                <p>Enter your url or text here</p>
+                                <textarea placeholder="Enter QR code data here..." id="qr-data"></textarea>
+                            </div>
+                            <div class="btn-generate">
+                                <button><a href="QR-Details.html" style="color: #fff;text-decoration: none;" id="submit">Generate</a></button>
+                            </div>
+
+                        </div>
+                        <div class="colors-div">
+                            <div class="qr-code-color">
+                                <label>QR code color</label> <br>
+                                <img src="chrome-extension://ohcpnigalekghcmgcdcenkpelffpdolg/img/icon16.png" alt=""> <br>
+                                <input type="color" colorpick-eyedropper-active="true">
+                            </div>
+                            <div class="qr-code-color">
+                                <label>QR code color</label> <br>
+                                <img src="chrome-extension://ohcpnigalekghcmgcdcenkpelffpdolg/img/icon16.png" alt=""> <br>
+                                <input type="color" colorpick-eyedropper-active="true">
+                            </div>
+                            <div class="qr-code-color">
+                                <label>QR code style</label> <br>
+                                <select>
+                                    <option value="square" selected>square</option>
+                                    <option value="square">rounded</option>
+                                    <option value="square">dots</option>
+                                    <option value="square">classy</option>
+                                    <option value="square">classy-rounded</option>
+                                    <option value="square">extra-rounded</option>
+                                </select>
+                            </div>
+                            <div class="qr-code-color">
+                                <label>QR code color</label> <br>
+                                <img src="chrome-extension://ohcpnigalekghcmgcdcenkpelffpdolg/img/icon16.png" alt=""> <br>
+                                <input type="color" colorpick-eyedropper-active="true">
+                            </div>
+                            <div class="qr-code-color">
+                                <label>QR code style</label> <br>
+                                <select>
+                                    <option value="square" selected>square</option>
+                                    <option value="square">dot</option>
+                                    <option value="square">extra-rounded</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+
+
+                    <div class="qr-section">
+
+                    </div>
+    </div>
+</div>
+</div>
+    
+    </section>
+
+
+    <script src="js/js.js">
+        let link = document.getElementById('link');
+        let text = document.getElementById('text');
+        let pdf = document.getElementById('pdf');
+        let image = document.getElementById('image');
+
+        link.onclick = function(){
+            this.style.border = '4px solid #0DCAF2'
+            image.style.border = '1px solid #0DCAF2'
+            pdf.style.border = '1px solid #0DCAF2'
+            text.style.border = '1px solid #0DCAF2'
+        }
+        text.onclick = function(){
+            image.style.border = '1px solid #0DCAF2'
+            pdf.style.border = '1px solid #0DCAF2'
+            link.style.border = '1px solid #0DCAF2'
+            this.style.border = '4px solid #0DCAF2'
+        }
+        pdf.onclick = function(){
+            image.style.border = '1px solid #0DCAF2'
+            text.style.border = '1px solid #0DCAF2'
+            link.style.border = '1px solid #0DCAF2'
+            this.style.border = '4px solid #0DCAF2'
+        }
+        image.onclick = function(){
+            link.style.border = '1px solid #0DCAF2'
+            pdf.style.border = '1px solid #0DCAF2'
+            text.style.border = '1px solid #0DCAF2'
+            this.style.border = '4px solid #0DCAF2'
+        }
+
+    </script>
+    
+</body>
+</html>

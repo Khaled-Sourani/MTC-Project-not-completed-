@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+header .right-section{
+    display: flex;
+    margin-left: 200px;
+}
+
+header .right-section img{
+    width: 100px;
+    height: 50px;
+}
+
+header .right-section p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-left: 30px;
+    color: #6B7280;
+}
+
+header .right-section p a:hover{
+    color: #333;
+    cursor: pointer;
+}
+header .left-section{
+    margin-right: 150px;
+    margin-top: 5px;
+}
+header .left-section button{
+    background-color: #fff;
+    border: 1px solid #DEE2E6;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #6B7290;
+}
+
+header .left-section button span img{
+    width: 13px;
+    height: 10px;
+}
+header .left-section button:hover{
+    color: #afb2b9;
+}
+
+header .right-section p a{
+    color: #6B7280;
+    text-decoration: none;
+}
+
+header .profile-div{
+    background-color: #fff;
+    position: absolute;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    width: 200px;
+    margin-top: 10px;
+    right: 150px;
+    height: 55px;
+    border-radius: 4px;
+    display: none;
+}
+
+header .profile-div a{
+    color: #D5D7DB;
+    text-decoration: none;
+    margin-top: 30px;
+    padding-left: 10px;
+    margin: 10px;
+}
+.sec-1 div{
+    display: flex;
+    justify-content: end;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+.sec-1 div button{
+    background-color: #0D6EFD;
+    color: #fff;
+    border: none;
+    width: 220px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 17px;
+    transition: 0.7s ease;
+}
+
+.sec-1 div button:hover{
+    background-color: #0c56c4;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+
+.sec-2{
+    background-color: #111827;
+    display: flex;
+    justify-content: center;
+    height: 590px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.sec-2 .sec-2-tr{
+    background-color: #fff;
+    width: 1200px;
+    height: 500px;
+    border-radius: 8px;
+}
+.sec-2 .sec-2-tr thead tr th{
+    font-weight: 549;
+}
+.sec-2 .sec-2-tr .search-head{
+   padding-top: 40px;
+   padding-left: 15px;
+}
+
+.sec-2 .sec-2-tr .search-head input{
+    width: 300px;
+    height: 35px;
+    border: 3px solid #2880D8;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-top: 8px;
+}
+
+.sec-2 .sec-2-tr table{
+    margin-top: 20px;
+    width: 1150px;
+}
+.sec-2 .sec-2-tr table tbody tr td{
+    padding-top: 20px;
+}
+.sec-2 .sec-2-tr table tbody tr .td-1{
+    padding-left: 50px;
+}
+.sec-2 .sec-2-tr table tbody tr .td-2{
+    padding-left: 55px;
+}
+.sec-2 .sec-2-tr table tbody tr .td-3{
+    padding-left: 42px;
+}
+.sec-2 .sec-2-tr table tbody tr .td-4{
+    padding-left: 110px;
+}
+.sec-2 .sec-2-tr table tbody tr .td-6{
+    padding-left: 40px;
+}
+
+.sec-2 .sec-2-tr table thead tr .qr-code{
+    padding-right: 50px;
+}
+
+.sec-2 .sec-2-tr table tbody tr .td-5{
+    top: -5px;
+    left: 715px;
+    width: 80px;
+}
+
+
+.sec-2 .sec-2-tr table tbody tr .td-9 button{
+    
+    margin: 0;
+    background-image: none;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    border: 1px solid transparent;
+    transition: color .15s ease-in-out .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+.sec-2 .sec-2-tr table tbody .td-8 button{
+    margin: 0;
+    text-transform: none;
+    background-image: none;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+.sec-2 .sec-2-tr table tbody .td-7 button{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #000;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+.sec-2 .sec-2-tr table tbody .tr-1 {
+    background-color: #F2F2F2;
+}
+
+
